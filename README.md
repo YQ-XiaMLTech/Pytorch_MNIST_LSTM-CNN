@@ -67,7 +67,7 @@ A simplified structure diagram is shown below:
 
 ```
 Input (batch, 28, 28)
-  --> LSTM (2-layer, hidden_size=62, dropout=0.2)
+  --> LSTM (3-layer, hidden_size=95, dropout=0.47)
     --> Output (last time step)
       --> Fully Connected (hidden_size -> 10)
         --> log_softmax

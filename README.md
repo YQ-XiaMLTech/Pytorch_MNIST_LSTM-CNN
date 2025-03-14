@@ -103,7 +103,7 @@ Optuna performs multiple trials to explore different hyperparameter configuratio
 
 ## 5. Results
 
-With the default configuration (`hidden_size=95, num_layers=3, dropout=0.47, lr=0.001, batch_size=96, weight_decay=5.36e-06`), after training for 30 epochs (with early stopping enabled), the model generally achieves high accuracy on the MNIST dataset. The training results (which may vary slightly due to random seed or environment differences) are as follows:
+With the default configuration (`Optimizer:adam, hidden_size=95, num_layers=3, dropout=0.47, lr=0.001, batch_size=96, weight_decay=5.36e-06`), after training for 30 epochs (with early stopping enabled), the model generally achieves high accuracy on the MNIST dataset. The training results (which may vary slightly due to random seed or environment differences) are as follows:
 
 - **Training set**: Accuracy ~ 99.6875%, Error ~ 0.3125%  
 - **Validation set**: Accuracy ~ 98.9667%, Error ~ 1.0333%  
